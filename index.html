@@ -1,176 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>吴翱翔的简历</title>
-	<link rel="stylesheet" href="reset-fonts-grids.css"> 
-	<link rel="stylesheet" href="resume.css">
-	<link rel="shortcut icon" type="image/png" href="favicon.png">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>吴翱翔的博客</title>
+    <meta name="keywords" content="日语,Python,chrome">
+    <meta name="description" content="Python业余爱好者,擅长flask框架,日本語學習中">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="/static/docsify-themeable.css">
+    <style>
+        :root {
+            font-family: "Microsoft Yahei";
+        }
+        summary {
+            cursor: pointer;
+        }
+    </style>
 </head>
+
 <body>
-<div id="doc2" class="yui-t7">
-	<div id="inner">	
-		<div id="hd">
-			<div class="yui-gc">
-				<div class="yui-u first">
-					<h2><span id='title'>吴翱翔的简历</span></h2>
-					<p>&nbsp</p>
-					<h2>求职意向: 软件开发、软件测试、全栈工程师</h2>
-				</div>
-				<div class="yui-u">
-					<div class="contact-info">
-						<h3>Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:waxembedded@gmail.com">waxembedded@gmail.com</a></h3>
-						<h3>手机:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17150313884</h3>
-						<h3>推特:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/ThinkingGain">@ThinkingGain</a></h3>
-						<h3>个人网站: <a href="aoxiangwu.github.io">aoxiangwu.github.io</a></h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="bd">
-			<div id="yui-main">
-				<div class="yui-b">
-					<div class="yui-gf">
-						<div class="yui-u first" style="display: none">
-								<div class="yui-u first" >
-							<h2>个人简介</h2>
-						</div>
-						<div class="yui-u">
-							<p class="enlarge">
-								本科电子信息工程专业在读(2015-2019)
-							</p>
-						</div>
-					</div>
-					<div class="yui-gf">
-						<div class="yui-u first">
-							<h2>技能</h2>
-						</div>
-						<div class="yui-u">
-								<div class="talent">
-									<h2>Linux运维</h2>
-									<p>
-										能搭建openVPN服务器无障碍访问谷歌,&nbsp;
-										能用rsa私钥验证的ssh登录避免服务器被暴力破解,&nbsp;
-										了解Docker技术
-									</p>
-								</div>
-								<div class="talent">
-										<h2>网页开发</h2>
-										<p>
-											明白网页请求响应过程和路由原理,&nbsp;
-											熟悉JQuery和JavaScript,&nbsp;
-											理解MVC架构,&nbsp;
-											明白CGI脚本执行过程
-										</p>
-								</div>
-								<div class="talent">
-									<h2>软件设计</h2>
-									<p>
-										Python,Ruby,bash多种脚本语言都能熟练使用,&nbsp;
-										使用Git进行版本管理,&nbsp;
-										掌握正则表达式,&nbsp;
-										掌握SQL数据库语句,&nbsp;
-									</p>
-								</div>
-						</div>
-					</div>
-					<div class="yui-gf">
-						<div class="yui-u first">
-							<h2>开发环境</h2>
-						</div>
-						<div class="yui-u">
-							<ul class="talent">
-								<li>macOS10.13.4</li>
-								<li>Ubuntu18.04LTS</li>
-								<li class="last">Raspbian2018-04-18</li>
-							</ul>
-							<ul class="talent">
-								<li>Jquery3.3.1</li>
-								<li>PHP7.2.4</li>
-								<li class="last">Anaconda3</li>
-							</ul>
-							<ul class="talent">
-								<li>mysql5.7.22</li>
-								<li>Python3.6.5</li>
-								<li class="last">Git2.17.1</li>
-							</ul>
-						</div>
-					</div>
-					<div class="yui-gf">
-						<div class="yui-u first">
-							<h2>项目与<br />工作经验</h2>
-						</div>
-						<div class="yui-u">
-							<div class="job">
-								<h2>树莓派PHP控制硬件IO口</h2>
-								<!-- <h3>Senior Interface Designer</h3> -->
-								<h4>&nbsp;</h4>
-								<p style="margin-bottom: initial">
-									演示视频<a href="https://youtu.be/9nIBJWFT9x0">https://youtu.be/9nIBJWFT9x0</a>(需翻墙)&nbsp;&nbsp;
-									源代码<a href="https://github.com/aoxiangwu/gpio_toggle/">(Github)</a><br />
-								</p>
-								<ul class="list">
-									<li>使用了网页作为用户界面</li>
-									<li>用到了jQuery的ajax技术将客户端点击请求，送到服务器相应脚本文件</li>
-									<li>用PHP语言编写CGI脚本响应ajax请求并改变IO口电平状态</li>
-								</ul>
-								<br>
-								<br>
-							</div>
-							<div class="job">
-								<h2>VPS维护经验</h2>
-								<h4>&nbsp;</h4>
-								<ol class="list" style="list-style-type: decimal">
-									<li>vultr VPS维护了三个月</li>
-									<li>腾讯云,阿里云各1个月</li>
-								</ol>
-								<br>
-							</div>
-							<div class="job">
-								<h2>基于树莓派的公网IP摄像头(NAT内网穿透)</h2>
-								<h4></h4>
-								<p>
-									系统环境:&nbsp;&nbsp;win10笔记本+Debian树莓派<br />
-									CSI接口摄像头参数:&nbsp;&nbsp;传感器为<a href="https://www.raspberrypi.org/documentation/hardware/camera/README.md">Sony IMX219</a>, 800万像素<br />
-									摄像头驱动与服务:&nbsp;&nbsp;Linux下的motion service, 驱动为V4L2<br />
-									推流公网过程:<br/>
-									&nbsp;&nbsp;-&nbsp;&nbsp;树莓派摄像头IP+端口记为A,不连网，用网线连接笔记本和树莓派<br />
-									&nbsp;&nbsp;-&nbsp;&nbsp;笔记本输入Debian命令进入Debian的Subsystem(类似于docker的进程系统)<br>
-									&nbsp;&nbsp;-&nbsp;&nbsp;在Debian子系统开启nginx服务,将0.0.0.0:80反向代理到摄像头的A地址<br>
-									&nbsp;&nbsp;-&nbsp;&nbsp;使用ngrok工具或frp技术，将公网IP反向代理到win10笔记本的80端口
-								</p>
-							</div>
-							<div class="job last">
-								<h2>常用软件的CMS内容管理系统</h2>
-								<ul class="list">
-									<li>软件CMS含每个软件的版本，代码范例等信息</li>
-									<li>使用Python编写网络爬虫和CSS选择器(bs4)抓取软件的版本号</li>
-									<li>将爬虫结果与sqlite数据库对比，记录软件更新情况</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="yui-gf last">
-						<div class="yui-u first">
-							<h2>教育经历</h2>
-						</div>
-						<div class="yui-u">
-							<h3>2015-2019 天津职业技术师范大学 - 电子信息工程专业</h3>
-							<h4>主修课程:</h4>
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;线性代数、信号与系统、数字信号处理、数字图像处理</p>
-							<br>
-							<h4>证书奖项:</h4>
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;2016年天津市TI杯电子设计竞赛三等奖、计算机等级考试二级Python、软考初级程序员</p>
-							<br>
-							<h4>个人爱好:</h4>
-							<p>&nbsp;&nbsp;&nbsp;&nbsp;逛v2ex,刷推特,看PTT的ajax板和python板(台湾论坛,需翻墙),看政论节目(蓝绿都看)</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+    <div id="app"></div>
+    <script>
+        window.$docsify = {
+            alias: {
+                '/.*/sidebar.md': 'sidebar.md'
+            },
+            homepage: '2019/kigou.md',
+            repo: 'pymongo/pymongo.github.io',
+            basePath: '/doc',
+            loadSidebar: 'sidebar.md',
+            subMaxLevel: 3,
+            search: {
+                paths: 'auto',
+                placeholder: '検索',
+                noData: '一致なし'
+            },
+            pagination: {
+                previousText: 'PREVIOUS',
+                nextText: '下一章节',
+                crossChapter: true
+            }
+        }
+    </script>
+    <script src="/static/docsify@4.9.4.js"></script>
+    <script src="/static/search@4.9.4.js"></script>
+    <script src="/static/docsify-themeable@0.7.2.js"></script>
+    <script src="/static/docsify-pagination@2.4.0.js"></script>
+    <script src="/static/docsify-tabs@1.1.2.js"></script>
+    <script src="/static/docsify-plugin-flexible-alerts@1.0.4.js"></script>
+    <script src="/static/docsify-copy-code@2.1.0.js"></script>
 </body>
+
 </html>
