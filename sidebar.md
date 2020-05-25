@@ -1,5 +1,16 @@
 - [归档 - 吴翱翔的博客](/)
+- **20年5月**
+    - [sqlx教程](/2020/05/sqlx_tutorial.md)
+    - [sqlx项目提PR修正文档](/2020/05/pr_to_sqlx_document.md)
+    - [Go/Rust语言工具介绍](/2020/05/go_rust_toolchain.md)
+    - [Go项目文件结构](/2020/05/go_file_structure.md)
+    - [chrono不能连用两个local](/2020/05/rust_chrono_dual_local_ub.md)
+    - [rust BigDecimal最佳实践](/2020/05/rust_bigdecimal.md)
+    - [diesel给mysql加锁](/2020/05/diesel_mysql_lock.md)
 - **20年4月**
+    - [Go语言研究](/2020/04/golang.md)
+    - [chrome导出插件](/2020/04/chrome_export_extension.md)
+    - [抄底BTC成功案例分析](/2020/04/case_study_buy_low_sell_high_on_btc.md)
     - [复盘第一次rebase](/2020/04/git_rebase)
     - [算法 - 等比级数](/2020/04/geometric_series.md)
     - [ab测试工具的极限](/2020/04/limit_of_apache_ab.md)
@@ -103,6 +114,12 @@
     - [再次学习Ruby](/2019/10/ruby_restudy.md)
     - [chrome78开始支持darkmode](/2019/10/chrome-dark-mode.md)
 <!-- archive -->
+- **Leetcode**
+    - [062 走格子最短路径](/archive/leetcode/062_dp_unique_paths.md)
+    - [066 plus one](/archive/leetcode/066-plus-one.md)
+    - [070 爬楼梯动态规划](/archive/leetcode/070_dp_climbing_stairs.md)
+    - [118 pascal tria:ngle(杨辉三角)](/archive/leetcode/118-pascal-triangle.md)
+    - [leetcode简单题/API题](/archive/leetcode/leetcode-easy.md)
 - **VIM**
     - [vim复习](/archive/vim/vim_review.md)
     - [cursor(光标移动)](/archive/vim/cursor.md)
@@ -129,11 +146,6 @@
     - [日本語の絵文字/記号/顔文字](/archive/japanese/kigou.md)
     - [日本語発音](/archive/japanese/hatsuon.md)
     - [日本語入力(输入法)](/archive/japanese/nyuuryoku.md)
-- **Leetcode**
-    - [066 plus one](/archive/leetcode/066-plus-one.md)
-    - [070 Climbing Stairs(递归类)](/archive/leetcode/070-climbing-stairs.md)
-    - [118 pascal tria:ngle(杨辉三角)](/archive/leetcode/118-pascal-triangle.md)
-    - [leetcode简单题/API题](/archive/leetcode/leetcode-easy.md)
 - **数据库**
     - [database](/archive/database/database.md)
     - [Oracle数据库](/archive/database/oracle_database/index.md)
@@ -146,13 +158,12 @@
 <!-- /archive -->
 - **个人作品**
     - [【智能家居】平板电脑控制电灯](/unarchived/rpi_gpio.md)
-- **参与开源**
-    - [首次给开源项目(scoop)提交代码](/unarchived/pull_request_to_scoop/index.md)
 - **old**
-    - [博客新功能/样式测试](/unarchived/test.md)
-    - [chrome的恐龙奔跑游戏中作弊](/unarchived/chrome_game_cheat/index.md)
+    - [给开源项目(scoop)提交代码](/unarchived/pull_request_to_scoop/index.md)
+    - [chrome恐龙奔跑游戏中作弊](/unarchived/chrome_game_cheat/index.md)
     - [谷歌的文字冒险游戏](/unarchived/google_text_adventure.md)
-    - [CSS权重等前端豆知识回顾](/unarchived/css_specificity.md)
+    - [CSS/HTML小知识(如CSS权重)](/unarchived/css_html_notes.md)
+    - [博客新插件/样式测试](/unarchived/test.md)
 - **联系我**
     - [我的简历](/redirect/resume.html)
  
